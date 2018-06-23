@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [
+    "tenantId",
+    "wifiAgent",
+    "interface"],
+  "properties": {
+    "tenantId":{
+      "type":"integer",
+      "format":"int64",
+      "example":1
+    },
+    "wifiAgent":{
+      "type":"String",
+      "example":"192.168.109.205"
+    },
+    "interface": {
+      "type": "String",
+      "example": "wlan1"
+    }
+  }
+}

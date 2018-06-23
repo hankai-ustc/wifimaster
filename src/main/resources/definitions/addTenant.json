@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "tenantId",
+    "tenantName"],
+  "properties": {
+    "tenantId":{
+      "type":"integer",
+      "format":"int64",
+      "example":1
+    },
+    "tenantName": {
+      "type": "String",
+      "example": "Alice"
+    }
+  }
+}

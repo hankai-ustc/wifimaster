@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "wifiAgent",
+    "vapNumber"
+  ],
+  "properties": {
+    "vapNumber":{
+      "type":"String",
+      "example":"2"
+    },
+    "wifiAgent":{
+      "type":"String",
+      "example":"192.168.109.205"
+    }
+  }
+}

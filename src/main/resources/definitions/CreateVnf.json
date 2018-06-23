@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "required": [
+    "tenantId",
+    "vnfAgent",
+    "vnfId",
+    "vnfType",
+    "nbPort",
+    "script"],
+
+  "properties": {
+    "tenantId":{
+      "type":"integer",
+      "format":"int64",
+      "example":1
+    },
+    "vnfAgent":{
+      "type":"String",
+      "example":"192.168.109.205"
+    },
+    "vnfId":{
+      "type":"integer",
+      "format":"int64",
+      "example":2
+    },
+    "vnfType": {
+      "type": "String",
+      "example": "FireWall"
+    },
+    "nbPort":{
+      "type":"integer",
+      "format":"int64",
+      "example":2
+    },
+    "script":{
+      "type":"String",
+      "example":"iptables -A FORWARD -p tcp --dport 80 -j ACCEPT"
+    }
+  }
+}

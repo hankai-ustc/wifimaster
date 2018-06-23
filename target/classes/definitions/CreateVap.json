@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "required": [
+    "tenantId",
+    "wifiAgent",
+    "interface",
+    "ssid"],
+  "properties": {
+    "tenantId":{
+      "type":"integer",
+      "format":"int64",
+      "example":2
+    },
+    "wifiAgent":{
+      "type":"String",
+      "example":"192.168.109.205"
+    },
+    "interface": {
+      "type": "String",
+      "example": "wlan1"
+    },
+    "ssid": {
+      "type": "String",
+      "example": "POF"
+    }
+  }
+}
